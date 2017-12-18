@@ -1,11 +1,11 @@
 console.log('Hello World!');
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './components/Counter';
+import Main from './components/main';
 
 document.addEventListener('DOMContentLoaded', function () {
     ReactDOM.render(
-        React.createElement(Counter),
+        React.createElement(Main),
         document.getElementById('mount')
     );
 });
