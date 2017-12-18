@@ -29,3 +29,8 @@ Start the development server with this command:
 ```
 npm start
 ```
+
+Result
+---
+
+![alt image](result.png)
