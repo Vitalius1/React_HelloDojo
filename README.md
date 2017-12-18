@@ -1,4 +1,4 @@
-My Project
+Practice Project to Learn React
 ---
  
 Welcome.

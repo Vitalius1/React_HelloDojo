@@ -6,7 +6,7 @@ const app = express();
 
 const compiler = webpack(webpackConfig);
 
-app.use(express.static(__dirname + '/www'));
+app.use(express.static(__dirname + '/public'));
 
 app.use(webpackDevMiddleware(compiler, {
     hot: true,
@@ -21,5 +21,6 @@ app.use(webpackDevMiddleware(compiler, {
 const server = app.listen(3000, function () {
     const host = server.address().address;
     const port = server.address().port;
-    console.log('Example app listening at http://%s:%s', host, port);
+    console.log('Example app listening at http://localhost:%s', port);
+    console.log('To STOP application press CTRL + C');
 });
