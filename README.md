@@ -1,34 +1,23 @@
 Practice Project to Learn React
 ---
  
-Welcome.
+Create a list using React components.
  
  
  
 Setup
 ---
- 
-```
-npm install
-```
+**npm install**
 
 
 Compile
 ---
- 
-```
-npm run compile
-```
+**npm run compile**
 
 
 Usage
 ---
- 
-Start the development server with this command:
- 
-```
-npm start
-```
+Start the development server with this command: **npm start**
 
 Result
 ---
